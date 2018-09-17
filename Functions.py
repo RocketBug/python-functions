@@ -1,3 +1,4 @@
+# Enter a equation in the format of "x + 4 = 10", solve for x.
 """
 eq = input("Enter the function: ")
 
@@ -26,6 +27,9 @@ def solve_eq(equ):
 
 print("x = ", solve_eq(eq))
 """
+
+
+#Passing a reciving multiple arguments to a function.
 """
 num1 = int(input("Enter num1: "))
 num2 = int(input("Enter num2: "))
@@ -42,6 +46,8 @@ if num2 > 0:
 print("multiplication: {}, division: {}".format(output1, output2))
 """
 
+
+# Printing a list of prime numbers.
 """
 def is_prime(num):
     for i in range(2, num):
@@ -66,8 +72,8 @@ for k in listOfPrimes:
     print(k)
 """
 
-# For unknown number of arguments being passed to a function
 
+# For unknown number of arguments being passed to a function
 """
 def sum_all(*args):
     sum_of_num = 0
