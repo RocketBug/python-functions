@@ -105,3 +105,11 @@ def main():
 
 main()
 """
+
+
+def generate_guid():
+
+    print("Hello")
+
+
+generate_guid()
